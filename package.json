@@ -2,8 +2,12 @@
   "name": "chisel-wpcs",
   "version": "1.0.0",
   "description": "TODO",
+  "bin": {
+    "chisel-wpcs": "./bin/chisel-wpcs.js"
+  },
   "scripts": {
     "prepublish": "php download.php",
+    "chisel-phpcs": "php external/phpcs.phar",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +19,10 @@
     "email": "hello@xfive.co",
     "url": "https://www.xfive.co"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-chisel": "^1.0.0",
+    "prettier": "^1.13.7"
+  }
 }
