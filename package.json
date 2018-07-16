@@ -1,0 +1,19 @@
+{
+  "name": "chisel-wpcs",
+  "version": "1.0.0",
+  "description": "TODO",
+  "scripts": {
+    "prepublish": "php download.php",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "author": {
+    "name": "Xfive",
+    "email": "hello@xfive.co",
+    "url": "https://www.xfive.co"
+  },
+  "license": "ISC"
+}
